@@ -48,17 +48,17 @@ jobs:
 
           # Android Configuration
           - target: android
-            arch: arm64
-            abi: arm64-v8a
+            arch: arm
+            abi: armeabi-v7a
             api: 23
 
           # OpenSSL version
           - component: openssl
-            version: "1.1.1d"
+            version: "1.1.1q"
 
           # nghttp2 version
           - component: nghttp2
-            version: "1.40.0"
+            version: "1.49.0"
 
       fail-fast: false
 
@@ -134,8 +134,8 @@ jobs:
 
           # Android Configuration
           - target: android
-            arch: arm64
-            abi: arm64-v8a
+            arch: arm
+            abi: armeabi-v7a
             api: 23
 
           # cURL version
