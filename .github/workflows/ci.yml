@@ -140,7 +140,7 @@ jobs:
 
           # cURL version
           - component: curl
-            version: "7.68.0"
+            version: "7.85.0"
 
       fail-fast: false
 
